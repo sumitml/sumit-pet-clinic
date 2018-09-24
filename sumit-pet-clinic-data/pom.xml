@@ -3,7 +3,7 @@
   <parent>
     <groupId>com.sk</groupId>
     <artifactId>sumit-pet-clinic</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.2</version>
   </parent>
   <artifactId>sumit-pet-clinic-data</artifactId>
   <name>sumit-pet-clinic-data</name>
@@ -54,5 +54,5 @@
 		</plugins>
 	</build>
   <groupId>com.sk</groupId>
-  <version>0.0.2-SNAPSHOT</version>
+  <version>0.0.2</version>
 </project>
