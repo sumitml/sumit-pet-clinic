@@ -1,5 +1,14 @@
 com\sk\sumitpetclinic\model\Person.class
-com\sk\sumitpetclinic\model\PetType.class
+com\sk\sumitpetclinic\services\VetService.class
+com\sk\sumitpetclinic\services\map\OwnerServiceMap.class
+com\sk\sumitpetclinic\model\BaseEntity.class
+com\sk\sumitpetclinic\services\map\AbstractMapService.class
 com\sk\sumitpetclinic\model\Vet.class
+com\sk\sumitpetclinic\services\CRUDService.class
 com\sk\sumitpetclinic\model\Owner.class
 com\sk\sumitpetclinic\model\Pet.class
+com\sk\sumitpetclinic\services\map\VetServiceMap.class
+com\sk\sumitpetclinic\services\PetService.class
+com\sk\sumitpetclinic\model\PetType.class
+com\sk\sumitpetclinic\services\map\PetServiceMap.class
+com\sk\sumitpetclinic\services\OwnerService.class
