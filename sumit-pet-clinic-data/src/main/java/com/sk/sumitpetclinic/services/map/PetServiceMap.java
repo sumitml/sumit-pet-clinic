@@ -4,8 +4,9 @@ import java.util.Set;
 
 import com.sk.sumitpetclinic.model.Pet;
 import com.sk.sumitpetclinic.services.CRUDService;
+import com.sk.sumitpetclinic.services.PetService;
 
-public class PetServiceMap extends AbstractMapService<Pet, Long> implements CRUDService<Pet, Long> {
+public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService {
 
 	@Override
 	public Set<Pet> findAll(){
