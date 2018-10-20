@@ -1,2 +1,5 @@
-com\sk\sumitpetclinic\SumitPetClinicApplication.class
+com\sk\sumitpetclinic\bootstrap\DataLoader.class
 com\sk\sumitpetclinic\controllers\IndexController.class
+com\sk\sumitpetclinic\SumitPetClinicApplication.class
+com\sk\sumitpetclinic\controllers\OwnerController.class
+com\sk\sumitpetclinic\controllers\VetController.class
