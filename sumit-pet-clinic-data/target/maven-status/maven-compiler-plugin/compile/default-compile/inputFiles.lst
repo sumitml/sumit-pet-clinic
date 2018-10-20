@@ -1,9 +1,13 @@
 E:\java course\Boot\repo\sumit-pet-clinic\sumit-pet-clinic-data\src\main\java\com\sk\sumitpetclinic\model\BaseEntity.java
+E:\java course\Boot\repo\sumit-pet-clinic\sumit-pet-clinic-data\src\main\java\com\sk\sumitpetclinic\services\PetTypeService.java
 E:\java course\Boot\repo\sumit-pet-clinic\sumit-pet-clinic-data\src\main\java\com\sk\sumitpetclinic\services\map\PetServiceMap.java
 E:\java course\Boot\repo\sumit-pet-clinic\sumit-pet-clinic-data\src\main\java\com\sk\sumitpetclinic\services\OwnerService.java
 E:\java course\Boot\repo\sumit-pet-clinic\sumit-pet-clinic-data\src\main\java\com\sk\sumitpetclinic\model\Person.java
+E:\java course\Boot\repo\sumit-pet-clinic\sumit-pet-clinic-data\src\main\java\com\sk\sumitpetclinic\services\map\SpecialityMapService.java
+E:\java course\Boot\repo\sumit-pet-clinic\sumit-pet-clinic-data\src\main\java\com\sk\sumitpetclinic\services\map\PetTypeServiceMap.java
 E:\java course\Boot\repo\sumit-pet-clinic\sumit-pet-clinic-data\src\main\java\com\sk\sumitpetclinic\model\Owner.java
 E:\java course\Boot\repo\sumit-pet-clinic\sumit-pet-clinic-data\src\main\java\com\sk\sumitpetclinic\services\map\OwnerServiceMap.java
+E:\java course\Boot\repo\sumit-pet-clinic\sumit-pet-clinic-data\src\main\java\com\sk\sumitpetclinic\model\Visit.java
 E:\java course\Boot\repo\sumit-pet-clinic\sumit-pet-clinic-data\src\main\java\com\sk\sumitpetclinic\services\CRUDService.java
 E:\java course\Boot\repo\sumit-pet-clinic\sumit-pet-clinic-data\src\main\java\com\sk\sumitpetclinic\services\map\VetServiceMap.java
 E:\java course\Boot\repo\sumit-pet-clinic\sumit-pet-clinic-data\src\main\java\com\sk\sumitpetclinic\services\VetService.java
@@ -11,4 +15,6 @@ E:\java course\Boot\repo\sumit-pet-clinic\sumit-pet-clinic-data\src\main\java\co
 E:\java course\Boot\repo\sumit-pet-clinic\sumit-pet-clinic-data\src\main\java\com\sk\sumitpetclinic\services\map\AbstractMapService.java
 E:\java course\Boot\repo\sumit-pet-clinic\sumit-pet-clinic-data\src\main\java\com\sk\sumitpetclinic\model\Pet.java
 E:\java course\Boot\repo\sumit-pet-clinic\sumit-pet-clinic-data\src\main\java\com\sk\sumitpetclinic\model\PetType.java
+E:\java course\Boot\repo\sumit-pet-clinic\sumit-pet-clinic-data\src\main\java\com\sk\sumitpetclinic\model\Speciality.java
+E:\java course\Boot\repo\sumit-pet-clinic\sumit-pet-clinic-data\src\main\java\com\sk\sumitpetclinic\services\SpecialitiesService.java
 E:\java course\Boot\repo\sumit-pet-clinic\sumit-pet-clinic-data\src\main\java\com\sk\sumitpetclinic\services\PetService.java
