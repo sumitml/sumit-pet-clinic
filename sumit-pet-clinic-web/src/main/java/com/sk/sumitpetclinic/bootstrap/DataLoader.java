@@ -10,10 +10,12 @@ import com.sk.sumitpetclinic.model.Pet;
 import com.sk.sumitpetclinic.model.PetType;
 import com.sk.sumitpetclinic.model.Speciality;
 import com.sk.sumitpetclinic.model.Vet;
+import com.sk.sumitpetclinic.model.Visit;
 import com.sk.sumitpetclinic.services.OwnerService;
 import com.sk.sumitpetclinic.services.PetTypeService;
 import com.sk.sumitpetclinic.services.SpecialitiesService;
 import com.sk.sumitpetclinic.services.VetService;
+import com.sk.sumitpetclinic.services.VisitService;
 import com.sk.sumitpetclinic.services.map.OwnerServiceMap;
 import com.sk.sumitpetclinic.services.map.VetServiceMap;
 
@@ -24,13 +26,16 @@ public class DataLoader implements CommandLineRunner{
 	private final VetService vetService;
 	private final PetTypeService petTypeService;
 	private final SpecialitiesService specialityService;
+	private final VisitService visitService;
 	
-	public DataLoader(OwnerService ownerService, VetService vetService,PetTypeService petTypeService,SpecialitiesService specialityService) {
+	public DataLoader(OwnerService ownerService, VetService vetService, PetTypeService petTypeService,
+			SpecialitiesService specialityService, VisitService visitService) {
 		super();
 		this.ownerService = ownerService;
 		this.vetService = vetService;
 		this.petTypeService = petTypeService;
 		this.specialityService = specialityService;
+		this.visitService = visitService;
 	}
 
 
@@ -97,6 +102,12 @@ public class DataLoader implements CommandLineRunner{
 		ownerService.save(owner2);
 		
 		System.out.println("Loaded Owners");
+		
+		Visit visit = new Visit();
+	//	visit.setPet(skPet);
+		visit.setDate(LocalDate.now());
+		visit.setDescription("sneezy");
+		visitService.save(visit);
 		
 		Vet vet1 = new Vet();
 		
